@@ -10,13 +10,23 @@ p   {
     text-align: center;
 }
 
-header  {
-    display: inline-block;
-    position:fixed;
-    height: 50px;
-    padding: 9.5px 10px;
+body    {
+    margin: 0px;
 }
 
-img[src*='img-tea-cozy-logo.png']   {
+header  {
+    display: flex;
+    position:   fixed;
+    padding: 9.5px 10px;
+    border-bottom: 1px solid seashell;
+    width: 100%;
+}
+
+#logo_header    {
     height: 50px;
+}
+
+.header_text    {
+    margin: 10px;
+    float: right;
 }
