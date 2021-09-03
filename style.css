@@ -1,13 +1,14 @@
 *   {
     font-family: Helvetica;
-    font-size: 22px;
     color:  seashell;
     background-color: black;
     opacity: 0.9;
+    text-align: center;
 }
 
-p   {
-    text-align: center;
+a
+,p   {
+    font-size: 22px;
 }
 
 body    {
@@ -15,18 +16,113 @@ body    {
 }
 
 header  {
-    display: flex;
+    display: block;
     position:   fixed;
     padding: 9.5px 10px;
     border-bottom: 1px solid seashell;
     width: 100%;
+    background-color:black;
+    z-index: 1;
 }
 
 #logo_header    {
     height: 50px;
+    float: left;
 }
 
-.header_text    {
-    margin: 10px;
+#header_text    {
+    margin: 10px 0px 10px 10px;
+    padding-right: 10px;
     float: right;
 }
+
+#header_text a    {
+    margin: 10px;
+}
+
+#mission_background {
+    display: flex;
+    position: relative;
+    background-image: url("images/img-mission-background.jpg");
+    background-color: transparent;
+    top: 69px;
+    height: 700px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#mission    {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#mission h2 {
+    margin-bottom: 0px;
+}
+
+#gallery-title  {
+    display: block;
+    position:   relative;
+    width: 1000px;
+    top: 69px;
+    background-color: transparent;
+    text-align: center;
+    margin-top: 69px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#gallery {
+    display: block;
+    position:   relative;
+    width: 1000px;
+    top: 69px;
+    background-color: transparent;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#img-1,
+#img-2,
+#img-3,
+#img-4,
+#img-5  {
+    display: inline-block;
+}
+
+#img-1 img,
+#img-2 img,
+#img-3 img,
+#img-4 img,
+#img-5 img   {
+    display: flex;
+    height: 200px;
+    width: 300px;
+    margin: 10px;
+}
+
+#img-1 h4,
+#img-2 h4,
+#img-3 h4,
+#img-4 h4,
+#img-5 h4   {
+    margin: 0px;
+}
+
+/*#img-3  {
+    
+}
+
+#img-4  {
+    
+}
+
+#img-5  {
+    
+}*/
